@@ -1,0 +1,15 @@
+module.exports = {
+    product: require('./product.api.js'),
+    category: require('./category.api.js'),
+    discount: require('./discount.api.js'),
+    user: require('./user.api.js'),
+    address: require('./address.api.js'),
+    brand: require('./brand.api.js'),
+    tag: require('./tag.api.js'),
+    banner: require('./banner.api.js'),
+    bannerVertical: require('./bannerVertical.api.js'),
+    order: require('./order.api.js'),
+    ticket: require('./ticket.api.js'),
+    payment: require('./payment.api.js'),
+    info: require('./info.api.js'),
+}
